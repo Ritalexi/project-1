@@ -1,0 +1,158 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Karla';
+}
+body
+{
+    background-color:  hsl(204, 43%, 93%);
+    font-family: 'Karla';
+}
+.main-body
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  width: 42.5%;
+  margin: 5rem auto;
+  box-shadow: 1px 1px 40px hsl(218, 22%, 67%);
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.join-section-body
+{
+    background: #fff;
+  padding: 2rem;
+  width: 100%;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.join-section-body h1
+{
+    color: hsl(179, 62%, 43%);
+}
+.join-section-body h2
+{
+color: hsl(71, 73%, 54%);
+margin-top: 5%;
+}
+.join-section-body p
+{
+    color: hsl(204, 43%, 93%);
+    font-size: 16px;
+    margin-top: 2.5%;
+}
+.sub-body
+{
+    display: flex;
+    width: 100%;
+}
+.subscription-section-body
+{
+    background-color: hsl(179, 62%, 43%);
+    width: 50%;
+    padding: 2rem;
+    border-bottom-left-radius: 5px;
+}
+.subscription-section-body h3
+{
+    color: #fff;
+}
+.subscription-section-body div
+{
+    display: flex;
+    margin-top: 5%;
+}
+.subscription-section-body h4
+{
+color: hsl(204, 43%, 93%);
+margin-left: 5%;
+margin-top: 5%;
+
+}
+.subscription-section-body b
+{
+color: #fff;
+font-size: 2.5rem;
+font-weight: 700;
+}
+.subscription-section-body p
+{
+    color: hsl(204, 43%, 93%);
+    font-size: 16px;
+   margin-top: 5%;
+}
+.subscription-section-body button
+{
+    color: #fff;
+    text-align: center;
+    padding: 10px 35px;
+    background: hsl(71, 73%, 54%);
+    border: none;
+    border-radius: 5px;
+  margin-top: 10%;
+  width: 100%;
+}
+.why-section-body
+{
+    background-color: hsl(218, 22%, 67%);
+    width: 50%;
+    padding: 2rem;
+    border-bottom-right-radius: 5px;
+}
+.why-section-body h3
+{
+    color: #fff;
+}
+.why-section-body p
+{
+    color: hsl(204, 43%, 93%);
+    font-size: 16px;
+    margin-top: 8%;
+    line-height: 1.4rem;
+    width: 90%;
+}
+@media screen and (max-width: 1024px) {
+    .main-body
+    {
+        width: 70%;
+    }
+}
+@media screen and (max-width: 960px) {
+    .main-body
+    {
+        width: 70%;
+    }
+}
+@media screen and (max-width: 700px) {
+    .main-body
+    {
+        width: 70%;
+    }
+    .sub-body
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.subscription-section-body
+{
+    width: 100%;
+    border-bottom-left-radius: 0px;
+}
+.why-section-body
+{
+    width: 100%;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+}
+.attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
